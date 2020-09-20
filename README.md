@@ -17,13 +17,14 @@ alphabet = ['А','Б','В','Г','Д','Е','Ж','З','И','Й','К','Л','М','Н
 ### Создание списка алфавита
 ```
 for a in list(msg.upper()):
+    if a == 'Я':
+        a = 'A'
     if a in alphabet:
-        a = a.upper()
         n = alphabet.index(a)+1
         new_msg += alphabet[n]
     else:
         new_msg += a
-```
+```        
 ### Цикл, который сдвигает буквы из переменной msg на одно значение и записывает в переменную new_msg
 
 ```
@@ -31,4 +32,4 @@ print(new_msg.title())
 ```
 ### Вывод зашифрованного текста
 
-![Alt-текст](https://avatars1.githubusercontent.com/u/5384215?v=3&s=460 "Орк")
+![Alt-текст](https://skr.sh/i/200920/MEaPGlql.jpg?download=1)
