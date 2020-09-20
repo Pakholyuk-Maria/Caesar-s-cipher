@@ -1,7 +1,7 @@
 # Caesar-s-cipher
 ##Код программы с комментариями:
- -*- coding: utf-8 -*-
 ```
+ -*- coding: utf-8 -*-
 msg = ""
 new_msg = ""
 print('Введите текст: ')
